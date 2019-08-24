@@ -4,7 +4,8 @@
   "description": "Cycle.js image preload driver",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,9 @@
   "dependencies": {
     "@cycle/run": "^5.2.0",
     "xstream": "^11.11.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.19.0",
+    "typescript": "^3.5.3"
   }
 }
